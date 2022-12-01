@@ -1,0 +1,15 @@
+.red{
+    /* background-color: red; */
+    color: blue;
+}
+#head{
+    /* background: yellow; */
+    background-image: url(/04a.HTML/HTML/CSS/images/100x100\ cm\ -\ Solitaire\ Plus.jpg);
+    color: turquoise+;
+}
+*{
+    background-image: url(/04a.HTML/HTML/CSS/images/The\ Ultima\ \ 120x180\ cm.jpg);
+    background-repeat: repeat-x;
+    margin: 0;
+    padding: 0;
+}

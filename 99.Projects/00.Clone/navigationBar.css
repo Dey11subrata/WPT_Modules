@@ -1,0 +1,54 @@
+    header{
+        display: flex;
+        justify-content: space-around;
+        /* position: relative; */
+        /* top: 5rem; */
+        padding: 2rem;
+        /* cross to main axis */
+        align-items: flex-end;
+        max-height: 4rem;
+        /* background-color: yellow; */
+        font-family: 'Montserrat', sans-serif;
+        color: #ed1c24;
+        font-size: 15px;
+        font-weight: 500;
+        letter-spacing: .059rem;
+    }
+    .navigationBar img{
+        position: relative; 
+         top:1rem;
+        height: 6rem;
+        
+    }
+    .textField{
+        /* position:relative; */
+        /* top: -10px; */
+        color: #ed1c24;
+        font-weight: 500;
+    }
+    .searchIcon img{
+        height: 25px;
+        /* padding-left:px; */
+
+    }
+    .searchIcon{
+        /* position: relative; */
+        /* top: -10px; */
+        /* left: -50px; */
+    }
+    #EN{
+        /* margin-left: 5px; */
+    }
+    .tata{
+        /* height: 110px; */
+        /* position: relative; */
+        /* top:-80px ; */
+    }
+    .textField img{
+        position: relative;
+        top: .3rem;
+    }
+    #sicon{
+        position: relative;
+        left: -1rem;
+    }

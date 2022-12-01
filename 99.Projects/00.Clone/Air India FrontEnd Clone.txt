@@ -1,0 +1,13 @@
+Air India - 
+
+	Parts of design:
+		1. Navigation bar
+		2. Sliding images
+		3. Booking board
+		4. Facilities slides
+		5. Attaching Pages
+		6. Banner
+		7. Buttons 
+		8. Links
+		10. footer
+		11. Ask Maharaja bot(no idea)
