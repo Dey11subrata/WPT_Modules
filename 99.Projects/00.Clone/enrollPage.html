@@ -20,56 +20,61 @@
           alt="A STAR ALLIANCE MEMBER"
         />
       </div>
-      <div class="pageCentre">
-        <p class="regmessage">
-          Kindly use unique email IDs and mobile numbers for sign ups (even for
-          minors).
-        </p>
-      </div>
-      <div class="emailverify pageCentre enrollForm">
-        <label for="validationEmail"
-          >Verification is necessary. Please click Send button.</label
-        >
-        <input
-          type="text"
-          name="validationEmail"
-          id="validationEmail"
-          class="pageCentre"
-          placeholder="Email Address"
-        />
-      </div>
-      <div class="verificationbutton">
-        <button class="sendvericode">Send verification code</button>
-      </div>
-      <div class="password name pageCentre enrollForm">
-        <input
-          type="password"
-          name="newPassword"
-          id="npwd"
-          placeholder="New Password"
-        />
-        <!-- <br /> -->
-        <input
-          type="password"
-          name="confPassword"
-          id="cnfpwd"
-          placeholder="Confirm New Password"
-        />
-        <!-- <br /> -->
-        <input
-          type="text"
-          name="firstName"
-          id="fName"
-          placeholder="Given Name"
-        />
-        <!-- <br /> -->
-        <input type="text" name="lastName" id="lName" placeholder="Surname" />
-      </div>
-      <label for="dob">Date of Birth</label>
-      <input type="date" name="day" id="day" class="dob" />
-      <!-- <input type="month" name="month" id="minth" class="dob" /> -->
-      <!-- <select name="" id=""></select>
+      <form action="#" name="userform" class="form enrollForm pageCentre">
+        <div class="pageCentre">
+          <p class="regmessage">
+            Kindly use unique email IDs and mobile numbers for sign ups (even
+            for minors).
+          </p>
+        </div>
+        <div class="emailverify pageCentre enrollForm">
+          <label for="validationEmail"
+            >Verification is necessary. Please click Send button.</label
+          >
+          <input
+            type="text"
+            name="validationEmail"
+            id="validationEmail"
+            class="pageCentre"
+            placeholder="Email Address"
+            value=""
+          />
+        </div>
+        <div class="verificationbutton">
+          <button class="sendvericode">Send verification code</button>
+        </div>
+        <div class="password name pageCentre enrollForm">
+          <input
+            type="password"
+            name="newPassword"
+            id="npwd"
+            placeholder="New Password"
+          />
+          <!-- <br /> -->
+          <input
+            type="password"
+            name="confPassword"
+            id="cnfpwd"
+            placeholder="Confirm New Password"
+          />
+          <!-- <br /> -->
+          <input
+            type="text"
+            name="firstName"
+            id="fName"
+            placeholder="Given Name"
+          />
+          <!-- <br /> -->
+          <input type="text" name="lastName" id="lName" placeholder="Surname" />
+        </div>
+        <label for="dob">Date of Birth</label>
+        <input type="date" name="day" id="day" class="dob" />
+        <!-- <input type="month" name="month" id="minth" class="dob" /> -->
+        <!-- <select name="" id=""></select>
       <input name="year" id="year" class="dob"> -->
+        <input type="submit" name="submit" id="submit" value="Create" />
+      </form>
     </div>
+    <script src="/enrollPage.js"></script>
   </body>
 </html>
