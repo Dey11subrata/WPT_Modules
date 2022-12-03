@@ -1,0 +1,28 @@
+.size{
+    height: fit-content;
+width: fit-content;
+}
+.button{
+    height: 3.5rem;
+    width: 4rem;
+    margin:0.1rem;
+    border:2px solid rgb(0, 0, 0);
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    font-family: monospace;
+    /* cursor: pointer; */
+    background-color: rgba(0, 255, 255, 0.353);
+}
+input{
+    height:4rem;
+    width: 17rem;
+    background-color: rgba(15, 182, 118, 0.406);
+    border: 0.25rem solid black;
+    border-radius: 0.5rem;
+    margin-bottom: 0.3rem;
+    font-size: 1.2rem;
+    font-family: monospace;
+}
+.zero{
+    width: 8.5rem;
+}

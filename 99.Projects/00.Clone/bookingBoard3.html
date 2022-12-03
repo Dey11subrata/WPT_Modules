@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bookingboard</title>
+  </head>
+  <body>
+    <!-- designing the booking panel -->
+    <div class="center bookingPanel">
+      <!-- part-1 # top part of the booking panel 
+        having buttons function -->
+      <div id="bookingTabs" class="bookingButtons">
+        <button>Search Flights</button>
+        <button>Mange Booking</button>
+        <button>Check-in</button>
+        <button>flight-Status</button>
+      </div>
+      <!-- form to enter journey details for booking a ticket -->
+      <div id="form">
+        <form action="@someDatabase">
+          <!-- radio buttons for entering type of trip -->
+          <div id="radioButtons">
+            <input type="radio" name="trip" />
+            <label for="oneWay">One Way</label>
+            <input type="radio" name="trip" checked />
+            <label for="roundTrip">Round Trip</label>
+          </div>
+          <!-- input box for entering Sorce and Destination (additional functionality of suggestions can be added here) -->
+          <div id="journeyDetails">
+            <input type="text" name="from" placeholder="From" />
+            <!-- an image button of equiliberium to be inserted -->
+            <input type="text" name="to" placeholder="To" />
+          </div>
+          <!-- work on adding date selectors -->
+          <div class="dateSelector">
+            <input
+              type="date"
+              name="departing"
+              id="dDate"
+              placeholder="Departing"
+            />
+            <input
+              type="date"
+              name="returning"
+              id="rDate"
+              placeholder="Returning"
+            />
+          </div>
+          <!-- work on passenger type -->
+          <div class="passangerDetails">
+            <label for="adult">Adult</label>
+            <input
+              type="number"
+              name="adult"
+              id="adult"
+              min="1"
+              max="9"
+              placeholder="1"
+            />
+            <label for="children">Children</label>
+            <input
+              type="number"
+              name="children"
+              id="children"
+              min="0"
+              max="9"
+              placeholder="0"
+            />
+            <label for="infant">Infant</label>
+            <input
+              type="number"
+              name="infant"
+              id="infant"
+              min="0"
+              max="9"
+              placeholder="0"
+            />
+          </div>
+          <!-- work on concession type -->
+          <!-- work on journey class -->
+          <!-- work on eligiblityLInk -->
+          <!-- work on promationalCode -->
+
+          <!-- work on covid guiedlines -->
+          <!-- work on Search button -->
+        </form>
+      </div>
+      <div id="covidInst"></div>
+    </div>
+  </body>
+</html>

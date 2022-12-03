@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User details</title>
+    <link rel="stylesheet" href="/enrollPage.css" />
+  </head>
+  <body>
+    <div id="cancelButton">
+      <button id="cancel">Cancel</button>
+      <!-- < sign before Cancell required -->
+    </div>
+    <div class="enrollForm pageCentre">
+      <div id="pageCentre">
+        <img
+          class="Logo"
+          src="/enrollPageLogo.svg"
+          alt="A STAR ALLIANCE MEMBER"
+        />
+      </div>
+      <div class="pageCentre">
+        <p class="regmessage">
+          Kindly use unique email IDs and mobile numbers for sign ups (even for
+          minors).
+        </p>
+      </div>
+      <div class="emailverify pageCentre enrollForm">
+        <label for="validationEmail"
+          >Verification is necessary. Please click Send button.</label
+        >
+        <input
+          type="text"
+          name="validationEmail"
+          id="validationEmail"
+          class="pageCentre"
+          placeholder="Email Address"
+        />
+      </div>
+      <div class="verificationbutton">
+        <button class="sendvericode">Send verification code</button>
+      </div>
+      <div class="password name pageCentre enrollForm">
+        <input
+          type="password"
+          name="newPassword"
+          id="npwd"
+          placeholder="New Password"
+        />
+        <!-- <br /> -->
+        <input
+          type="password"
+          name="confPassword"
+          id="cnfpwd"
+          placeholder="Confirm New Password"
+        />
+        <!-- <br /> -->
+        <input
+          type="text"
+          name="firstName"
+          id="fName"
+          placeholder="Given Name"
+        />
+        <!-- <br /> -->
+        <input type="text" name="lastName" id="lName" placeholder="Surname" />
+      </div>
+      <label for="dob">Date of Birth</label>
+      <input type="date" name="day" id="day" class="dob" />
+      <!-- <input type="month" name="month" id="minth" class="dob" /> -->
+      <!-- <select name="" id=""></select>
+      <input name="year" id="year" class="dob"> -->
+    </div>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+ img{
+    height: 70px;
+    width: 208px;
+}
+.enrollForm{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+}
+
+.pageCentre{
+    display: flex;
+    background: rgba(187, 185, 49, 0.584);
+    justify-content: center;
+    align-items: center;
+   
+    }
+.regmessage{
+    background-color:pink;
+    margin: 0;
+    padding: 0;
+    max-width: 70%;
+}
+.emailverify{
+    margin-top: 1.5rem;
+    
+}
+.emailverify input{
+   /*  width:50% ; */
+    background-color: #fff;
+}
+.password name{
+    display: flex;
+    background-color: #000;
+}
