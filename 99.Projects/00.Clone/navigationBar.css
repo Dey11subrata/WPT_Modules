@@ -31,19 +31,9 @@
         /* padding-left:px; */
 
     }
-    .searchIcon{
-        /* position: relative; */
-        /* top: -10px; */
-        /* left: -50px; */
-    }
-    #EN{
-        /* margin-left: 5px; */
-    }
-    .tata{
-        /* height: 110px; */
-        /* position: relative; */
-        /* top:-80px ; */
-    }
+ 
+    
+  
     .textField img{
         position: relative;
         top: .3rem;
@@ -52,4 +42,13 @@
         position: relative;
         left: -1rem;
     }
-    button{}
+
+    .bookingPanel{
+        
+        border: 5px solid black;
+       
+    }
+    div#bookingTabs {
+        display: flex;
+        justify-content: center;
+    }

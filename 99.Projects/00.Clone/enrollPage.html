@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>User details</title>
-    <link rel="stylesheet" href="/enrollPage.css" />
+    <link rel="stylesheet" href="enrollPage.css" />
   </head>
   <body>
     <div id="cancelButton">
@@ -16,7 +16,7 @@
       <div id="pageCentre">
         <img
           class="Logo"
-          src="/enrollPageLogo.svg"
+          src="enrollPageLogo.svg"
           alt="A STAR ALLIANCE MEMBER"
         />
       </div>
@@ -37,11 +37,12 @@
             id="validationEmail"
             class="pageCentre"
             placeholder="Email Address"
-            value=""
           />
         </div>
         <div class="verificationbutton">
-          <button class="sendvericode">Send verification code</button>
+          <button class="sendvericode" onclick="validateEmail()">
+            Send verification code
+          </button>
         </div>
         <div class="password name pageCentre enrollForm">
           <input
@@ -75,6 +76,6 @@
         <input type="submit" name="submit" id="submit" value="Create" />
       </form>
     </div>
-    <script src="/enrollPage.js"></script>
+    <script src="enrollPage.js"></script>
   </body>
 </html>

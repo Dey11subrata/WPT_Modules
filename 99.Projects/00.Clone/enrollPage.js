@@ -31,8 +31,26 @@
 // console.log(user2.id); 
 // console.log(user2.placeholder);
 
-// set value using field attribute
-var user=document.getElementById("validationEmail");
-console.log(user);
-user.value="hacker";
-console.log(user.value);
+//  set value using field attribute
+// var user=document.getElementById("validationEmail");
+// console.log(user);
+// user.value="hacker";
+// console.log(user.value);
+
+// access form using form name
+
+var useremail = document.getElementById("validationEmail");
+console.log(useremail);
+// now we got access of email field in the form
+// apply validation to enter details.
+
+function validateEmail(){
+    // var patrn=/^([^0-9\W]*)$ /;
+    if(useremail.value==""){
+        alert("no blank value allowed")
+    }
+    else{
+        useremail.style.backgroundColor ='green';
+    }
+}
+useremail.addEventListener("keyup", validateEmail);
