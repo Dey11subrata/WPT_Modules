@@ -51,20 +51,20 @@ padding: 0;
     
 } 
 
-/* .socialMediaLogin img::before { */
+.socialMediaLogin img::before { 
     
-    /* border: radius 50%;; */
-    /* background: #ffee10; */
-    /* transition: .5s; */
-    /* transform: scale(.9); */
-    /* z-index: -1; */
+    border: radius 50%;;
+    background: #ffee10; 
+   transition: .5s; 
+   transform: scale(.9); 
+   z-index: 999;
    
-  /* } */
+ }
   
-  /* .socialMediaLogin img:hover::before {
+  .socialMediaLogin img:hover::before {
     transform: scale(2);
     box-shadow: 0 0 15px #ff6c10;
-  } */
+  }
  
   
   .socialMediaLogin img:hover {
