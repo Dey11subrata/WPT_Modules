@@ -1,42 +1,57 @@
 .rightside {
     /* height: 100%; */
     overflow-y: scroll;
+    overflow-x: hidden;
+    padding-left: 0px;
+    padding-right: 0px;
+ 
     
 }
 .leftside{
-    height: 100vh;
+    /* height: 100vh; */
     overflow-y: scroll;
+   
 }
 body{
-    overflow: hidden;
-    
+    height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;    
 }
 .right_header{
     margin: 0;
     padding: 0;
-    border: 2px solid black;
+    /* border: 2px solid black; */
+    background-image: linear-gradient(to bottom right, rgb(67, 67, 209), rgba(20, 20, 18, 0.607));
 }
 .profile{
-    align-items: center;
+    display: flex;
+    align-items: flex-end;
+    /* border: 2px solid red; */
     
+    margin-left: 0px;
+    margin-right: 0px;
 }
 .profile img{
     position: relative;
     
     margin: 0;
     padding: 0;
-    height: 100px;
-    width: 100px;
+    height: 90px;
+    width: 90px;
     border-radius: 50%;
-    margin-left: 2%;
-    align-self: flex-start;
+    /* align-self: flex-start; */
+    margin-left: 0px;
+    z-index: 1;
+    bottom: 3rem;
 }
 .profile-menu{
     display: flex;
     height: 5%;
-    /* margin-left: 15%; */
+    
     padding: 0;
     align-self: flex-start;
+    width: 100vw;
+    bottom: 6.75vw;
     
 }
 .profile-menu-items{
@@ -46,15 +61,42 @@ body{
     align-content: center;
     font-weight: 600;
     font-family: 'Times New Roman', Times, serif;
+    margin-left: 3rem;
+    bottom: 5.75rem;
    
 }
 
 .mylist-shows{
-    margin: 1%;
+    margin: 10%;
     padding: 0;
+    height: 276px;
+    width: 187px;
+    margin-left: 10%;
+}
 
+
+.mylist-shows:hover{
+    border: 2px solid rgb(255, 0, 106);
+    
 }
 .mylist{
     justify-self: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    border: 2px solid black;
+}
+.profile-myshowList{
+    margin: 0;
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+
+
+}
+.profile-myshowList p{
+    text-align: center;
+}
+.profile-myshowList div{
     margin-left: 5%;
+    flex-wrap: wrap;
 }
