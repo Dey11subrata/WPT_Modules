@@ -20,3 +20,22 @@ Undefined vs. undeclared variables
 		In this example, the counter variable has not been declared. 
 		Hence, accessing it causes a ReferenceError.
 
+Constants	
+	Uncaught TypeError: Assignment to constant variable.
+	
+	-----------------------------------------------------------------------------------
+	#A variable is a label that references a value.
+	#Use the let keyword to declare a variable.
+	#An undefined variable is a variable that has been declared but not initialized 
+		while an undeclared variable is variable that has not been declared.
+	#Use the const keyword to define a readonly reference to a value
+	-----------------------------------------------------------------------------------
+
+_______________________________
+Differences Between var and let
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+https://www.javascripttutorial.net/es6/difference-between-var-and-let/
+#1: Variable scopes
+#2: Creating global properties
+#3: Redeclaration
+#4: The Temporal dead zone
